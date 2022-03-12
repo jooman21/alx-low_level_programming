@@ -9,13 +9,13 @@
 int main(void)
 
 {
-
 	int n = 48;
-	while (n <= 102)
 
+	while (n <= 102)
 	{
 
 	        putchar(n);
+
 		if (n == 57)
 
 			n += 39;
