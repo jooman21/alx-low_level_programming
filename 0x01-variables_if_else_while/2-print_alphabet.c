@@ -1,4 +1,4 @@
-#inlude<stdio.h>
+#include<stdio.h>
 /**
 * main -Entry point 
 *
@@ -13,8 +13,8 @@ int main(void)
 
 	while (l <= 'Z')
 	{
-		putchar(1);
-		++1;
+		putchar(l);
+		++l;
 	}
 	while (U <= 'Z')
 	{
