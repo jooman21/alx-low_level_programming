@@ -25,27 +25,17 @@ int main(void)
 																			    {
 																			            putchar(n + 48);
 																		                    putchar(m + 48);
-	                   																	    if (n + m != 17)													            {
-			              																		putchar(',');
-
-																																																		putchar(' ');
-
-																																																						}
-
-																																					}
-
-																				++m;
-
-																						}
-
-												++n;
-
-													}
-
-				putchar('\n');
-
-
-
-					return (0);
+	                   																	    if (n + m != 17)
+																				    {
+			              																            putchar(',');
+				         putchar(' ');
+																																																				          }
+																																				}
+																	        	     ++m;
+																		    }
+		 ++n;
+	}
+	putchar('\n');
+	return (0);
 
 }
