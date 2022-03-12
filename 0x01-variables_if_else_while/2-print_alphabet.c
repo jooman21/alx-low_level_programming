@@ -2,26 +2,19 @@
 /**
 * main -Entry point 
 *
-* Description: print alphabet in lowercase than in uppercase
+* Description: print all lowercase alphabets respectively
 * Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	char l = 'a';
-	char U = 'A';
+	char ch = 'a';
 
-	while (l <= 'z')
+	while (ch <= 'z')
 	{
-		putchar(l);
-		++l;
+		putchar(ch);
+		ch++;
 	}
-	while (U <= 'Z')
-	{
-		putchar(U);
-		++U;
-	}
-	
 	putchar('\n');
 	return (0);
 }
