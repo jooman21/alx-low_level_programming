@@ -5,6 +5,7 @@
  * Description: print all lowercase alphabets respectively
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 char ch = 'a';
