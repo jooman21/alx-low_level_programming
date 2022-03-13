@@ -25,7 +25,8 @@ if (b != a)
 
 putchar((a / 10) + 48);
 
-putchar((a % 10) + 48);	
+putchar((a % 10) + 48);
+
 putchar(' ');
 
 putchar((b / 10) + 48);
@@ -43,11 +44,8 @@ putchar(' ');
 
 }
 ++b;
-
 }
-
 ++a;
-
 }
 putchar('\n');
 return (0);
