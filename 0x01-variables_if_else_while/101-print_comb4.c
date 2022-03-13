@@ -27,7 +27,7 @@ putchar(o + 48);
 if (n + m + o != 24)
 {
 putchar(',');	
-putchar(' ');
+putchar(',');
 }
 }
 ++o;
@@ -36,7 +36,7 @@ putchar(' ');
 }
 ++n;
 }
-putchar('\n')	
+putchar('\n');	
 return (0);
 }
 
