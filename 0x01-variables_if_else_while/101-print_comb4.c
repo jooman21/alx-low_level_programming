@@ -24,17 +24,22 @@ if (n != m && n < m && m != o && m < o)
 putchar(n + 48);
 putchar(m + 48);
 putchar(o + 48);
-if (n + m + o != 24)
+if (n + m + o != 24
+		)
 {
 putchar(',');	
-putchar(',');
+putchar(' ');
 }
 }
 ++o;
 }
+
 ++m;
+
 }
+
 ++n;
+
 }
 putchar('\n');	
 return (0);
