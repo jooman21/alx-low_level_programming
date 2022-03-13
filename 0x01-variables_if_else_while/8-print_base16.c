@@ -5,7 +5,7 @@
 * Description: print numbers of base16 in lowercase
 * Return: Always 0 (Success)
 */
-int main(void		)
+int main(void)
 {
 int n = 48;
 while (n <= 102)
