@@ -1,7 +1,10 @@
 #include<stdio.h>
 /**
-* main - Entry point 
+*
+* main - Entry point
+*
 * Description: print all lowercase alphabets respectively
+*
 * Return: Always 0 (Success)
 */
 
