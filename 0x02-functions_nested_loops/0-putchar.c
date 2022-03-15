@@ -7,14 +7,17 @@
 int main(void)
 {
 char joo[]= "_putchar";
+
 int j;
 
 for (j = 0; j < 7; j++)
 
 {
 _putchar(joo[j]);
+
 }
 _putchar('\n');
 
 return (0);
+
 }
