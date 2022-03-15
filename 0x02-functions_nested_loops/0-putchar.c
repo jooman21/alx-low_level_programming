@@ -6,14 +6,14 @@
  **/
 int main(void)
 {
-char joo[]= "putchar";
+char joo[]= "_putchar";
 int j;
 for (j = 0; j < 7; c++)
 
 {
-putchar(joo[j]);
+_putchar(joo[j]);
 }
-putchar('\n');
+_putchar('\n');
 
 return (0);
 }
